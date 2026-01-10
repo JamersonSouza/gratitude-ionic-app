@@ -25,3 +25,23 @@
 #container a {
   text-decoration: none;
 }
+
+ion-button {
+  --color: #fff;
+  --box-shadow: none;
+}
+
+ion-input {
+    --highlight-color: #EDEAE4;
+    --color: #fff;
+    --border-style: solid;
+    --border-width: 1px;
+    --border-color: #BCE0FB !important;
+  
+}
+
+.register {
+  --color: #ffffff;
+  --border-style: none;
+  background-color: #648398;
+}

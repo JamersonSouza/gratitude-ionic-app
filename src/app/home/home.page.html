@@ -1,11 +1,3 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Gratitude
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
@@ -13,6 +5,30 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-  </div>
+  <section id="container" class="background-main">
+      
+    <div class="image-center">
+        <img src="../../assets/images/logo_gratitude.png" alt="Gratitude Logo" />
+    </div>
+    
+    <div class="login">
+      <ion-input label="E-mail" class="margin-bottoom-2" label-placement="floating" fill="outline" placeholder="user@mail.com"></ion-input>
+      <ion-input label="Password" class="margin-bottoom-2" label-placement="floating" fill="outline" placeholder="Password" type="password"></ion-input>
+    </div>
+
+    <div class="button-login"  class="margin-bottoom-1">
+      <ion-button expand="full">
+         LOGIN
+      </ion-button>
+    </div>
+    
+     <div class="button-login">
+      <ion-button expand="full" fill="outline" class="register">
+         Não tem conta? Cadastre-se
+      </ion-button>
+    </div>
+
+  </section>
+
+
 </ion-content>
